@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ResourceModel:DevicePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ResourceModel="http://www.infineon.com/Davex/Resource.ecore" URI="http://resources/LFBGA144.0.0/devicepackage/0">
+  <provided xsi:type="ResourceModel:ResourceGroup" name="K7" URI="http://resources/lfbga144.0.0/devicepackage/0/k7">
+    <resourcesList name="pin" requiredResourceUri="http://resources/LFBGA144.0.0/devicepackage/0/pinK7"/>
+  </provided>
+  <provided xsi:type="ResourceModel:ResourceGroup" name="B5" URI="http://resources/lfbga144.0.0/devicepackage/0/b5">
+    <resourcesList name="pin" requiredResourceUri="http://resources/LFBGA144.0.0/devicepackage/0/pinB5"/>
+  </provided>
+  <provided xsi:type="ResourceModel:ResourceGroup" name="D10" URI="http://resources/lfbga144.0.0/devicepackage/0/d10">
+    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/UART/v4_1_12/UART_0.app#//@hwResources.11"/>
+    <resourcesList name="pin" requiredResourceUri="http://resources/LFBGA144.0.0/devicepackage/0/pinD10"/>
+  </provided>
+  <provided xsi:type="ResourceModel:ResourceGroup" name="C10" URI="http://resources/lfbga144.0.0/devicepackage/0/c10">
+    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/UART/v4_1_12/UART_0.app#//@hwResources.10"/>
+    <resourcesList name="pin" requiredResourceUri="http://resources/LFBGA144.0.0/devicepackage/0/pinC10"/>
+  </provided>
+  <provided xsi:type="ResourceModel:ResourceGroup" name="E5" URI="http://resources/lfbga144.0.0/devicepackage/0/e5">
+    <resourcesList name="pin" requiredResourceUri="http://resources/LFBGA144.0.0/devicepackage/0/pinE5"/>
+  </provided>
+  <provided xsi:type="ResourceModel:ResourceGroup" name="K6" URI="http://resources/lfbga144.0.0/devicepackage/0/k6">
+    <resourcesList name="pin" requiredResourceUri="http://resources/LFBGA144.0.0/devicepackage/0/pinK6"/>
+  </provided>
+  <provided xsi:type="ResourceModel:ResourceGroup" name="C2" URI="http://resources/lfbga144.0.0/devicepackage/0/c2">
+    <resourcesList name="pin" requiredResourceUri="http://resources/LFBGA144.0.0/devicepackage/0/pinC2"/>
+  </provided>
+  <provided xsi:type="ResourceModel:ResourceGroup" name="C1" URI="http://resources/lfbga144.0.0/devicepackage/0/c1">
+    <resourcesList name="pin" requiredResourceUri="http://resources/LFBGA144.0.0/devicepackage/0/pinC1"/>
+  </provided>
+  <provided xsi:type="ResourceModel:ResourceGroup" name="B6" URI="http://resources/lfbga144.0.0/devicepackage/0/b6">
+    <resourcesList name="pin" requiredResourceUri="http://resources/LFBGA144.0.0/devicepackage/0/pinB6"/>
+  </provided>
+  <provided xsi:type="ResourceModel:ResourceGroup" name="D3" URI="http://resources/lfbga144.0.0/devicepackage/0/d3">
+    <resourcesList name="pin" requiredResourceUri="http://resources/LFBGA144.0.0/devicepackage/0/pinD3"/>
+  </provided>
+  <provided xsi:type="ResourceModel:ResourceGroup" name="K8" URI="http://resources/lfbga144.0.0/devicepackage/0/k8">
+    <resourcesList name="pin" requiredResourceUri="http://resources/LFBGA144.0.0/devicepackage/0/pinK8"/>
+  </provided>
+  <provided xsi:type="ResourceModel:ResourceGroup" name="E4" URI="http://resources/lfbga144.0.0/devicepackage/0/e4">
+    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/SPI_MASTER/v4_3_26/SPI_MASTER_0.app#//@hwResources.22"/>
+    <resourcesList name="pin" requiredResourceUri="http://resources/LFBGA144.0.0/devicepackage/0/pinE4"/>
+  </provided>
+  <provided xsi:type="ResourceModel:ResourceGroup" name="E3" URI="http://resources/lfbga144.0.0/devicepackage/0/e3">
+    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/SPI_MASTER/v4_3_26/SPI_MASTER_0.app#//@hwResources.21"/>
+    <resourcesList name="pin" requiredResourceUri="http://resources/LFBGA144.0.0/devicepackage/0/pinE3"/>
+  </provided>
+  <provided xsi:type="ResourceModel:ResourceGroup" name="F5" URI="http://resources/lfbga144.0.0/devicepackage/0/f5">
+    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/SPI_MASTER/v4_3_26/SPI_MASTER_0.app#//@hwResources.25"/>
+    <resourcesList name="pin" requiredResourceUri="http://resources/LFBGA144.0.0/devicepackage/0/pinF5"/>
+  </provided>
+  <provided xsi:type="ResourceModel:ResourceGroup" name="F6" URI="http://resources/lfbga144.0.0/devicepackage/0/f6">
+    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/SPI_MASTER/v4_3_26/SPI_MASTER_0.app#//@hwResources.26"/>
+    <resourcesList name="pin" requiredResourceUri="http://resources/LFBGA144.0.0/devicepackage/0/pinF6"/>
+  </provided>
+</ResourceModel:DevicePackage>
