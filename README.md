@@ -6,4 +6,6 @@ for the XMC4500. It was specifically revived/updated to see if the
 recent FATFS 0.13C patches work.  Here is s screenshot of PXA-255
 Linux booting on the XMC4500.
 
+![Right after MCU boot](Docs/shell_boot.png)
+
 
